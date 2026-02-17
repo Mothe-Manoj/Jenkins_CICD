@@ -1,3 +1,8 @@
+# CI/CD Pipeline Script
+
+Add the following `Jenkinsfile` content to your repository root or copy it directly into a Jenkins Pipeline job.
+
+```groovy
 pipeline {
     agent any
 
@@ -15,3 +20,6 @@ pipeline {
         }
     }
 }
+
+
+
