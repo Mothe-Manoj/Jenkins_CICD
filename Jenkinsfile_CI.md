@@ -1,6 +1,6 @@
 #CI_PIPELINE
  
- pipeline {
+ * pipeline {
     agent any
     
     tools{
@@ -66,4 +66,4 @@
         }
                 
     }
-}
+} *
