@@ -1,4 +1,6 @@
-``` pipeline {
+#CI_PIPELINE
+ 
+ pipeline {
     agent any
     
     tools{
