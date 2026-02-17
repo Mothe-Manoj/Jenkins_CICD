@@ -36,9 +36,10 @@
             -Dsonar.projectName=Ecart \
             -Dsonar.java.binaries=.
         """
-    }
-}
-        stage('Build application') {
+        }
+     }
+        
+       stage('Build application') {
                     steps {
                         sh "mvn clean package -Dmaven.test.skip=true"
                 
@@ -65,4 +66,4 @@
         }
                 
     }
-} ```
+}
